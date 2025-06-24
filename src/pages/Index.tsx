@@ -10,7 +10,7 @@ const Index = () => {
         <div className="mb-8 animate-fade-in">
           <Music className="w-16 h-16 mx-auto mb-4 text-purple-300" />
           <h1 className="text-6xl font-bold text-white mb-6">
-            Concert <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">Hub</span>
+            Event <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">Hub</span>
           </h1>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Your gateway to the best live music experiences. Discover amazing concerts and book your tickets for unforgettable nights.
