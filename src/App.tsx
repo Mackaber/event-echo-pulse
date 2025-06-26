@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Events from "./pages/Events";
 import NotFound from "./pages/NotFound";
+import { Analytics } from "@vercel/analytics/react"
+
 
 const queryClient = new QueryClient();
 
@@ -16,6 +18,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <Analytics />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/events" element={<Events />} />
